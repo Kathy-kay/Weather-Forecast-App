@@ -59,7 +59,7 @@ function App() {
 
 
   return (
-    <div className="App" style={{backgroundImage: `url(${snow})`}}>
+    <div className="App" style={{backgroundColor:'red'}}>
       <div className="overlay">
         <div className="container">
           <form onSubmit={handleSubmit} className="input">
